@@ -1,13 +1,13 @@
-import React from 'react';
-
-import GlobalStyle from './styles/global';
-
-import Main from './pages/Main/index';
+import React from "react";
+import GlobalStyle from "./styles/global";
+import Routes from "./routes";
+import Logo from "./assets/logo.jpeg";
 
 const App = () => (
   <>
     <GlobalStyle />
-    <Main />
+    <img id="mainImage" src={Logo} alt="Semana Engenharia logo" />
+    <Routes />
   </>
 );
 
